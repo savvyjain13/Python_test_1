@@ -17,7 +17,7 @@ while guess_count <= 5:
     elif guess >= 30 and guess <= 35:
         print("hot")
         guess_count += 1
-    elif guess == 36 or 37 or 39 or 40:
+    elif guess == 36 or guess == 37 or guess == 39 or guess == 40:
         print("Very Close!")
     elif guess >= 41 and guess <= 49:
             print("hot")
